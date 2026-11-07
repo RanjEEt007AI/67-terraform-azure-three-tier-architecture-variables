@@ -1,0 +1,62 @@
+
+# Terraform directories
+.terraform/
+**/.terraform/*
+
+# Terraform state files
+*.tfstate
+*.tfstate.*
+terraform.tfstate
+terraform.tfstate.backup
+
+# Terraform variable files (may contain sensitive data)
+terraform.tfvars
+terraform.tfvars.json
+*.auto.tfvars
+*.auto.tfvars.json
+
+# Keep example variable files in Git
+!terraform.tfvars.example
+
+# Terraform plan files
+*.tfplan
+tfplan
+plan.out
+
+# Terraform crash logs
+crash.log
+crash.*.log
+
+# Override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# CLI configuration
+.terraformrc
+terraform.rc
+
+# Provider lock file
+# Keep .terraform.lock.hcl committed for reproducible provider versions.
+# Do not ignore it.
+
+# Sensitive keys and credentials
+*.pem
+*.key
+*.pfx
+*.p12
+id_rsa
+id_rsa.pub
+*.secret
+
+# Azure credentials
+azureProfile.json
+.azure/
+
+# VS Code
+.vscode/
+
+# Windows files
+Thumbs.db
+Desktop.ini
